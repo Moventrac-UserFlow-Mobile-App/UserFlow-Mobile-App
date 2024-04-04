@@ -1,8 +1,10 @@
-# Logster - login/register-page-app
+# 
+UserFlow-Mobile-App
 
-> Simple login/register-page-app created with React js.
+> A Simple UI App created with React js.
 
-Logster is a React app that has a Login, Register and Reset password features. This is just the Front-end of the app, no Back-end.
+UserFlow-Mobile-App is a React app that has a Login, Register and Reset password features. It also features other pages in the component. 
+This is just the Front-end of the app, no Back-end.
 
 ## Table of contents
 * [Functionalities](#functionalities)
@@ -19,6 +21,7 @@ Logster is a React app that has a Login, Register and Reset password features. T
 * Login with username and password
 * Create an account
 * Reset password
+* Router to pages
 
 ## Technologies
 
@@ -67,7 +70,10 @@ or
 
 ## Final Words
 
-If you like the app, please give it a star. It will mean a lot for me :)
+Contributions to enhance and expand the application are welcome.
+Fork the project, create a new branch for your feature, make changes, and submit a pull request.
+
+
 
 ## License
 
