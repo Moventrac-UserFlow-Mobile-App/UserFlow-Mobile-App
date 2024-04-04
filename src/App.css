@@ -1,0 +1,234 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 3rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+    color: #0f0e11;
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+
+/***    Footer Icons     ***/
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.icons .icon {
+    margin-right: 10px;
+    margin-top: 0.5rem; 
+    font-size: 2rem; 
+    margin-right: 10rem;
+}
+
+/* Colors for icons */
+.icons .icon:nth-child(1) { /* First icon */
+    color: red; 
+}
+
+.icons .icon:nth-child(2) { /* Second icon */
+    color: blue; 
+}
+
+.icons .icon:nth-child(3) { /* Third icon */
+    color: green; 
+}
+
+/***    Mobile Responsive    ***/
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 10px; 
+  }
+  
+  .icon-space {
+    display: none; 
+  }
+
+  .primary-button {
+    margin-top: 3rem; 
+    width: 80%; 
+  }
+
+  .m-5-auto {
+    margin: 2rem auto; 
+  }
+
+  .main-title {
+    padding-top: 5rem; 
+    font-size: 3.5rem; 
+  }
+
+  .main-para {
+    font-size: 1.5rem; 
+  }
+}
+
+.history-list {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.history-entry {
+    width: 30%; 
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+    .history-entry {
+        width: 100%; 
+    }
+}
+
+.history-entry {
+    width: 30%; 
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+
